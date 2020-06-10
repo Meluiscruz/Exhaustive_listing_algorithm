@@ -1,0 +1,80 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2310,         72]
+NotebookOptionsPosition[      1958,         58]
+NotebookOutlinePosition[      2357,         74]
+CellTagsIndexPosition[      2314,         71]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"target", ":=", "144"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+   "This", " ", "is", " ", "the", " ", "number", " ", "that", " ", "I", " ", 
+    "would", " ", "like", " ", "to", " ", "find", " ", "its", " ", "square", 
+    " ", 
+    RowBox[{"root", "."}]}], "*)"}]}], "\n", 
+ RowBox[{
+  RowBox[{"answer", ":=", "0"}], "\n"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Power", "[", 
+      RowBox[{"answer", ",", "2"}], "]"}], "<", "target"}], ",", 
+    RowBox[{"answer", "++"}]}], "]"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"If", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Power", "[", 
+     RowBox[{"answer", ",", "2"}], "]"}], "\[Equal]", "target"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{
+    "\"\<The square root of \>\"", ",", "target", ",", "\"\< is \>\"", ",", 
+     "answer"}], "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{
+    "\"\<Sorry, the number \>\"", ",", "target", ",", 
+     "\"\< does not have a perfect square root!\>\""}], "]"}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.8008190721583014`*^9, 3.800819124895007*^9}, {
+  3.800819156843128*^9, 3.8008191702488427`*^9}, {3.800819205941573*^9, 
+  3.8008192092492647`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"c33471b0-cd27-4d22-b1ac-3198e82f5801"]
+},
+WindowSize->{1350, 677},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 para Microsoft Windows (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"85cc5944-5878-4154-8881-f55451c292c8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1396, 36, 269, "Input",ExpressionUUID->"c33471b0-cd27-4d22-b1ac-3198e82f5801"]
+}
+]
+*)
+
