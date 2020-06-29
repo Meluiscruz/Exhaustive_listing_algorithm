@@ -6,7 +6,7 @@ This project contains 3 versions of this algorithm (wrote in C, Python and Mathe
 
 ## Files
 
-- Exhaustive_listing.c 
+- Exhaustive_listing.c **Note**: To compile this file, enter the command line     Exhaust-listing.c -lm -o Exhausting-listing
 - Exhaustive_listing.nb
 - Exhaustive_listing.py (comments in spanish)
 
