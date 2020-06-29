@@ -28,14 +28,14 @@ Cell[BoxData[{
     " ", 
     RowBox[{"root", "."}]}], "*)"}]}], "\n", 
  RowBox[{
-  RowBox[{"answer", ":=", "0"}], "\n"}], "\[IndentingNewLine]", 
+  RowBox[{"answer", ":=", "0"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"While", "[", 
    RowBox[{
     RowBox[{
      RowBox[{"Power", "[", 
       RowBox[{"answer", ",", "2"}], "]"}], "<", "target"}], ",", 
-    RowBox[{"answer", "++"}]}], "]"}], "\[IndentingNewLine]"}], "\n", 
+    RowBox[{"answer", "++"}]}], "]"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{"If", "[", "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
@@ -56,7 +56,7 @@ Cell[BoxData[{
   3.8008192092492647`*^9}},
  CellLabel->"In[1]:=",ExpressionUUID->"c33471b0-cd27-4d22-b1ac-3198e82f5801"]
 },
-WindowSize->{1350, 677},
+WindowSize->{1350, 669},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"12.1 para Microsoft Windows (64-bit) (March 18, 2020)",
 StyleDefinitions->"Default.nb",
